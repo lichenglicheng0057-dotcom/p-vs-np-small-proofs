@@ -1,0 +1,96 @@
+{
+  "task": "L-meta-765",
+  "gate_count": 5,
+  "truth_table_rows": 64,
+  "mismatch_count": 0,
+  "dependencies": [
+    {
+      "input": 0,
+      "witness": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "before": false,
+      "after": true,
+      "changes_output": true
+    },
+    {
+      "input": 1,
+      "witness": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "before": false,
+      "after": true,
+      "changes_output": true
+    },
+    {
+      "input": 2,
+      "witness": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "before": false,
+      "after": true,
+      "changes_output": true
+    },
+    {
+      "input": 3,
+      "witness": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "before": false,
+      "after": true,
+      "changes_output": true
+    },
+    {
+      "input": 4,
+      "witness": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "before": false,
+      "after": true,
+      "changes_output": true
+    },
+    {
+      "input": 5,
+      "witness": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "before": false,
+      "after": true,
+      "changes_output": true
+    }
+  ],
+  "all_six_inputs_essential": true,
+  "lower_bound_basis": "Published dep_lower theorem plus the six witnesses; not circuit enumeration",
+  "lean_verification": "NOT_RUN",
+  "official_checker": "NOT_RUN"
+}
